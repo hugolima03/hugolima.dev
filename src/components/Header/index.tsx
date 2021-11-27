@@ -17,15 +17,15 @@ const Header = () => {
     <S.HeaderWrapper>
       <Logo />
       <S.LinksWrapper>
-        <Link href="/">
+        <Link href="/#portfolio">
           <a>Portfólio</a>
         </Link>
         <Link href="https://github.com/hugolima03">
           <a target="_blank">Github</a>
         </Link>
-        <Link href="/">
+        {/* <Link href="/">
           <a>Blog</a>
-        </Link>
+        </Link> */}
       </S.LinksWrapper>
     </S.HeaderWrapper>
   )

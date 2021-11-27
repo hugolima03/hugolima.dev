@@ -6,7 +6,7 @@ const GlobalStyles = createGlobalStyle`
     --background: #030518;
     --white: #eeeeee;
     
-    --container: 100rem;
+    --container: 120rem;
 
     --small: 1.5rem;
     --medium: 3rem;
@@ -21,6 +21,7 @@ const GlobalStyles = createGlobalStyle`
 
   html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
   }
 
   html, body, #__next {
@@ -37,6 +38,26 @@ const GlobalStyles = createGlobalStyle`
 
   h1 {
     font-family: 'Sora', sans-serif;
+  }
+
+  ::-moz-selection {
+    color: white;
+    background: #FF3366;
+  }
+
+  ::selection {
+    color: white;
+    background: #FF3366;
+  }
+
+  .noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
   }
 `
 

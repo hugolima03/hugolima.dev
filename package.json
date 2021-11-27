@@ -25,14 +25,20 @@
   "dependencies": {
     "@emotion/react": "^11.5.0",
     "@styled-icons/boxicons-logos": "^10.38.0",
+    "@styled-icons/boxicons-regular": "^10.38.0",
     "@types/three": "^0.133.1",
     "framer-motion": "^5.0.0",
+    "graphql": "^16.0.1",
+    "graphql-request": "^3.6.1",
     "next": "11.1.2",
     "next-pwa": "^5.3.1",
+    "nextjs-progressbar": "^0.0.13",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-emoji": "^0.5.0",
     "styled-components": "5.3.1",
-    "three": "^0.133.1"
+    "three": "^0.133.1",
+    "vanilla-tilt": "^1.7.2"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
