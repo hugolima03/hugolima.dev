@@ -3552,10 +3552,10 @@
   dependencies:
     "@types/jest" "*"
 
-"@types/three@^0.133.1":
-  version "0.133.1"
-  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.133.1.tgz#6007faaf7f6b53339150a2a1fe57121e4c6607c1"
-  integrity sha512-XqBrP/+kbs+o0CYRhCVVE95v7FaL2bO5Z7+3VQJE0nEyjo+9LoLfeNgZITOnndKHxM+7ltEciAIR7uE0SZlsOg==
+"@types/three@^0.136.0":
+  version "0.136.0"
+  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.136.0.tgz#6ffd7487563fd3d4f1c794be0ab45f58197f3275"
+  integrity sha512-yNBe5U3B+eSZU+pmiDxeq3hDyF+ftYghFkY3y0ayZrF8SjoUMVIRXqEfJX39wTSDsiY4/+tkmKgNxhhIKbnxeQ==
 
 "@types/through@*":
   version "0.0.30"
