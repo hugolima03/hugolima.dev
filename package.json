@@ -27,7 +27,7 @@
     "@styled-icons/boxicons-logos": "^10.38.0",
     "@styled-icons/boxicons-regular": "^10.38.0",
     "@types/three": "^0.133.1",
-    "framer-motion": "^5.0.0",
+    "framer-motion": "^5.5.7",
     "graphql": "^16.0.1",
     "graphql-request": "^3.6.1",
     "next": "11.1.2",
